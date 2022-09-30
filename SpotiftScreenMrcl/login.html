@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotify2.png">
+    <link type="text/css" rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <title> Spotify </title>
+</head>
+<body>
+    <div class="shit">
+        <img src="spotify.png" alt="icon-spotify">
+        <div class="login-mode">
+            <a href="#" class="selected">SIGN IN</a>
+            <a href="#">SIGN ON</a>
+        </div>
+        <form action="/login" method="post">
+            <input name="user" type="text" class="user" placeholder="Username">
+            <input name="password" type="password" class="password"  placeholder="Password">
+            <div class="checkbox">
+                <input type="checkbox" id="check" class="check">
+                <label for = "check"> stay signed in</label>
+            </div>
+            <!-- <span class="sign-check"> </span> -->
+            <input type="submit" value="SIGN IN" class="submit">
+            
+        </form>
+        <a class="fg-passwd" href="#"> Forgot password?</a>
+    </div>
+</body>
+</html>
+
